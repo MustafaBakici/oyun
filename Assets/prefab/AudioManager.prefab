@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5900632061346196046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2761061000004838323}
+  - component: {fileID: 1350502532020281891}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2761061000004838323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900632061346196046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7351519, y: 0.10843862, z: 0.09308681}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1350502532020281891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900632061346196046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ee4073690de514ca88a9b9a3775a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 32b74b4b1d840484eb3cafa4b83ba13d, type: 3}
+    name: tabanca
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 721a545042b64454393105e58a40a4b9, type: 3}
+    name: death
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: b8994994257137747b885748b30e8454, type: 3}
+    name: enemyattack
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: fd30594e3b9ff1141930fec4d0f357e2, type: 3}
+    name: enemydie
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: a448a1c3f4a2d514eae8e30eb1227c56, type: 3}
+    name: mainmusic
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 1
+  - clip: {fileID: 8300000, guid: b13e007dad5c3f347949f00900648546, type: 3}
+    name: playerdamage
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - clip: {fileID: 8300000, guid: 0b93c6be1fe5df640b6ffb3aadb5c733, type: 3}
+    name: menumusic
+    volume: 0.3
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 1
