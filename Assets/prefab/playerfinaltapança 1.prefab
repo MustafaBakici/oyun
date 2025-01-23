@@ -80,6 +80,7 @@ MonoBehaviour:
   muzzle: {fileID: 8995245565013126266}
   bulletSpeed: 15
   maxHealth: 100
+  healthManager: {fileID: 0}
   isDead: 0
 --- !u!60 &4122579116590026534
 PolygonCollider2D:
@@ -209,7 +210,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 3492470888f9c4344bde99bf5e757f8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

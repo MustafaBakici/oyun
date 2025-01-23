@@ -15,6 +15,7 @@ public class playerall : MonoBehaviour
     [Header("Saðlýk Ayarlarý")]
     public int maxHealth = 100;
     private int currentHealth;
+    public HealthManager healthManager;
 
     private Rigidbody2D _rb;            // Rigidbody2D bileþeni
     private Vector2 movement;           // Hareket vektörü
@@ -27,6 +28,7 @@ public class playerall : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>(); // Animator bileþenini al
         currentHealth = maxHealth;
+        healthManager.SetMaxHealth(maxHealth);
     }
 
     void Update()
@@ -36,7 +38,7 @@ public class playerall : MonoBehaviour
         HandleMovement();
         HandleAiming();
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !(pausemenu.isPause))
         {
             Shoot();
         }
@@ -80,11 +82,7 @@ public class playerall : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        /*if (_animator != null)
-        {
-            _animator.SetTrigger("TakeHit");
-            AudioManager.instance.Play("playerdamage");
-        }*/
+        healthManager.SetHealth(currentHealth);
         
         if (currentHealth <= 0)
         {

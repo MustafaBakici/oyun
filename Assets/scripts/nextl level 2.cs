@@ -10,7 +10,7 @@ public class nextlevel2 : MonoBehaviour
         if (collision.CompareTag("player"))
         {
             //SceneTransition.instance.FadeToScene("LvlXL");
-            SceneManager.LoadSceneAsync(0);
+            SceneManager.LoadSceneAsync(4);
 
         }
 

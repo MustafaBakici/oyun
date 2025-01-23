@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/GirisVideo.unity
     guid: a307840726cba8446a93ddb37699be0a
   - enabled: 1
-    path: Assets/Scenes/depo.unity
-    guid: 32be483324d938541aaaaf73411e58a6
+    path: "Assets/Scenes/g\xFCncel1.unity"
+    guid: 8d77322c6f0d77847b16c7e7353136b3
   - enabled: 1
-    path: Assets/Scenes/LvlXL.unity
-    guid: 0bad627bd388e474499f19d37d42e686
+    path: "Assets/Scenes/g\xFCncel2.unity"
+    guid: 5b4b35bc92917da459e6b932daff35c6
+  - enabled: 1
+    path: "Assets/Scenes/g\xFCncel3.unity"
+    guid: bb0cd6e719c77984981d0839c38a3239
+  - enabled: 1
+    path: Assets/Scenes/thxfp.unity
+    guid: 5544f4fed426e79458e7d3af072bfd7c
   m_configObjects: {}
